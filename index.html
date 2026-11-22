@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>更表小幫手｜支援及私隱政策</title>
+<style>
+  :root { --green:#1a705a; --ink:#1f1f1f; --muted:#5f5f5f; --page:#faf9f5; --card:#ffffff; --line:#e6e3dc; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--page); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang HK","Noto Sans TC",sans-serif; line-height:1.75; }
+  .wrap { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  header { text-align:center; margin-bottom:28px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:14px; }
+  nav { display:flex; gap:12px; justify-content:center; margin-top:16px; flex-wrap:wrap; }
+  nav a { color:var(--green); text-decoration:none; font-weight:600; padding:6px 14px; border:1px solid var(--line); border-radius:999px; background:var(--card); }
+  section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 22px; margin-bottom:18px; }
+  h2 { font-size:20px; margin:0 0 10px; color:var(--green); }
+  h3 { font-size:16px; margin:18px 0 6px; }
+  ul { padding-left:22px; margin:6px 0; }
+  a { color:var(--green); }
+  .note { color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>更表小幫手</h1>
+    <div class="sub">支援及私隱政策 · 最後更新：2026 年 11 月 23 日</div>
+    <nav><a href="#support">支援</a><a href="#privacy">私隱政策</a></nav>
+  </header>
+
+  <section id="support">
+    <h2>支援</h2>
+    <p>「更表小幫手」係畀指定工作小組同事查看每週更表、試調更同查看調更紀錄嘅工具。帳戶由小組管理員開設，App 內冇公開註冊。</p>
+    <h3>常見問題</h3>
+    <ul>
+      <li><strong>點樣登入？</strong>輸入管理員提供嘅職員編號同數字密碼。登入後可以選擇開啟 Face ID／Touch ID。</li>
+      <li><strong>唔記得密碼？</strong>請聯絡你小組嘅管理員重設。</li>
+      <li><strong>更表同公司安排唔同？</strong>App 只供參考，實際安排以公司更表為準。</li>
+    </ul>
+    <h3>聯絡我們</h3>
+    <p>如有問題或者想刪除帳戶資料，可以喺 <a href="https://github.com/mtrcow/shift-helper-support/issues">GitHub 問題頁</a> 留言，或者直接聯絡小組管理員。</p>
+  </section>
+
+  <section id="privacy">
+    <h2>私隱政策</h2>
+    <h3>我哋收集咩資料</h3>
+    <ul>
+      <li><strong>職員編號同密碼</strong>：只用嚟登入。密碼經 Google Firebase Authentication 加密處理。</li>
+      <li><strong>顯示姓名</strong>：喺更表同調更紀錄度顯示，等同事知道係邊個。</li>
+      <li><strong>更表及調更紀錄</strong>：包括更份修改、修改時間同修改人，用嚟同步畀同組同事睇。</li>
+    </ul>
+    <h3>資料儲存喺邊度</h3>
+    <p>以上資料儲存喺 Google Firebase（Cloud Firestore 及 Authentication）。只有已登入嘅同組同事可以讀取。</p>
+    <h3>Face ID／Touch ID</h3>
+    <p>如果你開啟咗 Face ID／Touch ID，登入資料只會加密儲存喺你部手機嘅鑰匙圈（Keychain），唔會上傳。我哋接觸唔到你嘅臉孔或者指紋資料。</p>
+    <h3>我哋唔會做嘅事</h3>
+    <ul>
+      <li>唔會賣、出租或者分享你嘅資料畀第三方。</li>
+      <li>冇廣告，亦唔會追蹤你喺其他 App 或者網站嘅活動。</li>
+      <li>唔會收集位置、通訊錄、相片或者健康資料。</li>
+    </ul>
+    <h3>保留同刪除</h3>
+    <p>帳戶資料會保留到你離開工作小組為止。離開後管理員會停用帳戶；如果想刪除你嘅資料，請按上面「聯絡我們」嘅方法提出。</p>
+    <h3>兒童</h3>
+    <p>本 App 只供成年在職同事使用，唔會刻意收集兒童資料。</p>
+    <h3>政策更新</h3>
+    <p class="note">如果政策有改動，會喺呢一頁更新，並修改最後更新日期。</p>
+  </section>
+</div>
+</body>
+</html>
